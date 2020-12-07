@@ -43,7 +43,7 @@ weight = 4
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
 
   # Home page settings
-  description = "This will be a place that I will treat as a technical outlet for anything that I have worked on or learned that I think would be useful to someone. Hopefully I will be able to maintain a concept of unopinated reviews of whatever solutions I come across."
+  description = "This will be my technical outlet for anything that I have worked on,learned or believe to be useful. Hopefully I will be able to maintain a concept of unopinated suggestions for whatever dillemas there will be to solve."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true

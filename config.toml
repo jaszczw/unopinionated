@@ -1,4 +1,4 @@
-baseURL = "https://unopinionated.vercel.app/"
+baseURL = "https://unopinionated.dev/"
 languageCode = "en-us"
 title = "Unopinionated opinions by Wojtek Jaszczak"
 theme = "cactus"
@@ -38,6 +38,7 @@ weight = 4
 
 [params]
 
+  logo = "/images/wj_icon.jpg"
   colortheme = "classic" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default

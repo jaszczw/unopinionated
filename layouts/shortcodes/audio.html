@@ -1,13 +1,12 @@
-{{ $unique_id := substr (md5 .Inner) 0 16 }}<img class="play-audio" src="/play_arrow-black-18dp.svg" onclick="play({{$unique_id}})"/><style>
-  img.play-audio.play-audio {
+{{ $unique_id := substr (md5 .Inner) 0 16 }}<svg class="play-audio" onclick="play({{$unique_id}})" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M0 0h24v24H0z" fill="none"/><path d="M8 5v14l11-7z"/></svg><style>
+  svg.play-audio.play-audio {
     display: inline-block;    
-    margin: -0.2em;
-    width: 100;
-    height: 1em;
-    width: 1em;
+    margin: -0.125em;
+    height:1em;
+    width:1em;
   }
 
-  img.play-audio.play-audio:hover {
+  svg.play-audio.play-audio:hover {
     cursor: pointer;
   }
 </style><audio id="{{$unique_id}}">

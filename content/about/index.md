@@ -16,4 +16,4 @@ Wojciech is quite official - you can call me Wojtek ({{< audio src="/wojtek.mp3"
 
 My face:
 
-![Wojciech Face](/wj_profile.jpg)
+![Wojciech Face](/images/wj_profile.jpg)

@@ -1,0 +1,24 @@
+{{ $unique_id := substr (md5 .Inner) 0 16 }}<img class="play-audio" src="/play_arrow-black-18dp.svg" onclick="play({{$unique_id}})"/><style>
+  img.play-audio.play-audio {
+    display: inline-block;    
+    margin: -0.2em;
+    width: 100;
+    height: 1em;
+    width: 1em;
+  }
+
+  img.play-audio.play-audio:hover {
+    cursor: pointer;
+  }
+</style><audio id="{{$unique_id}}">
+  {{ if .IsNamedParams }}
+    <source src="{{.Get "src" }}" alt="" type="audio/mp3">
+  {{ else }}
+    <source src="{{.Get 0}}" alt="" type="audio/mp3">
+  {{ end }}
+</audio><script>
+  function play(unique_id) {
+    var audio = document.getElementById(unique_id);
+    audio.play();
+  }
+</script>

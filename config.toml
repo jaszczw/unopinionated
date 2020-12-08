@@ -4,7 +4,7 @@ title = "Unopinionated opinions by Wojtek Jaszczak"
 theme = "cactus"
 copyright = "Wojciech Jaszczak" # cactus will use title if copyright is not set
 disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-googleAnalytics = "G-VLTLQQNFT0"
+googleAnalytics = "UA-175010756-1"
 
 
 # summaryLength = 2

@@ -16,7 +16,7 @@ keywords:
 My task is to compare two libraries which help you resolve same problem, in different manner - Handling async actions in redux applications.
 I don't want to state which one is better than another but I do want to list pros and cons of each and provide clear feedback which one I have picked and my reasons for it.
 
-There is a nice topic on stack-overflow on the question ["Why use Redux-Observable over Redux-Saga?"](http://stackoverflow.com/questions/40021344/why-use-redux-observable-over-redux-saga). In this topic there is feedback from creator of react-observable, stating "We don't currently provide any reason redux-observable is better than redux-saga because...it's not. They solve the same problem in extremely similar ways, but have some fundamental differences that only become truly apparent once you use them enough"
+There is a nice topic on stack-overflow on the question ["Why use Redux-Observable over Redux-Saga?"](http://stackoverflow.com/questions/40021344/why-use-redux-observable-over-redux-saga). In this topic there is feedback from creator of react-observable, stating "We don't currently provide any reason redux-observable is better than redux-saga because... it's not. They solve the same problem in extremely similar ways, but have some fundamental differences that only become truly apparent once you use them enough"
 
 In the same response he also points out that deciding for one or another prematurely is unnecessary and even after you can/should still use redux in cases where power of those libs is not needed.
 
